@@ -1,0 +1,24 @@
+# secrets
+.env
+**/.env
+
+# virtualenvs
+.venv/
+venv/
+env/
+
+# caches
+__pycache__/
+*.pyc
+.pytest_cache/
+**/.cache/
+
+# raw crawl bodies (HTML, Markdown, full API responses)
+raw/
+**/raw/
+*.html
+**/output/*.md
+**/output/records*.jsonl
+
+# metrics without page bodies or secrets stay tracked
+!final/output/results.json

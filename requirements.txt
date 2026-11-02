@@ -1,0 +1,5 @@
+crawlbase==1.1.0
+openai>=1.40
+jsonschema>=4.21
+python-dotenv>=1.0
+pytest>=8.0

@@ -1,0 +1,17 @@
+{
+  "original_status": 200,
+  "cb_status": 200,
+  "url": "https://www.walmart.com/ip/3551794083",
+  "domain_complexity": "complex_ii",
+  "body": {
+    "title": "Meta Quest 3 512GB VR Headset",
+    "price": "$599.00",
+    "currency": "USD",
+    "itemId": "3551794083",
+    "soldBy": "Walmart.com",
+    "brand": "Visit the Meta Quest Store",
+    "ratings": "4.4",
+    "reviewsCount": "3240",
+    "features": ["Internal memory512 GB"]
+  }
+}

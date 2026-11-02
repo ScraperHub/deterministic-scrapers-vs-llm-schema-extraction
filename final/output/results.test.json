@@ -1,0 +1,1196 @@
+{
+  "generated_at": "2026-11-02T11:02:56+00:00",
+  "schema_version": "product.v1",
+  "llm_model_requested": "gpt-4o-mini-fixture",
+  "llm_models_returned": [
+    "openai:gpt-4o-mini-fixture"
+  ],
+  "runs": 3,
+  "mode": "test",
+  "urls": {
+    "amazon": 1,
+    "walmart": 1
+  },
+  "url_swaps": [],
+  "crawl_api_calls_this_invocation": 18,
+  "llm_api_calls_this_invocation": 6,
+  "llm_path": "run",
+  "crawl_token_counts": {
+    "normal": 18
+  },
+  "paths": {
+    "scraper": {
+      "all": {
+        "attempts": 6,
+        "crawl_ok": 6,
+        "records_produced": 6,
+        "schema_accepted": 6,
+        "schema_accept_rate": 1.0,
+        "error_counts": {},
+        "fill_rate": {
+          "per_key": {
+            "title": 1.0,
+            "id": 1.0,
+            "brand": 1.0,
+            "price": 1.0,
+            "currency": 1.0,
+            "availability": 0.5,
+            "rating": 1.0,
+            "reviews_count": 1.0
+          },
+          "mean": 0.9375
+        },
+        "consistency": {
+          "urls": 2,
+          "urls_with_all_runs": 2,
+          "identical_across_runs": 2,
+          "rate": 1.0,
+          "identical_input_urls": 0,
+          "identical_input_consistent": 0
+        },
+        "consistency_clean_pages": {
+          "urls": 0,
+          "urls_with_all_runs": 0,
+          "identical_across_runs": 0,
+          "rate": null,
+          "identical_input_urls": 0,
+          "identical_input_consistent": 0
+        },
+        "drift_by_key": {
+          "title": 0,
+          "id": 0,
+          "brand": 0,
+          "price": 0,
+          "currency": 0,
+          "availability": 0,
+          "rating": 0,
+          "reviews_count": 0
+        },
+        "markdown_not_product_page": {
+          "attempts": 6,
+          "records_accepted": 6,
+          "llm_tokens": 0
+        },
+        "invented": {
+          "records_checked": 0,
+          "records_unchecked": 6,
+          "non_null_values": 0,
+          "invented_values": 0,
+          "rate": null,
+          "records_with_invented_value": 0,
+          "per_key": {
+            "title": 0,
+            "id": 0,
+            "brand": 0,
+            "price": 0,
+            "currency": 0,
+            "availability": 0,
+            "rating": 0,
+            "reviews_count": 0
+          }
+        },
+        "latency": {
+          "median_s": 0.0,
+          "p90_s": 0.0
+        },
+        "cost_shape": {
+          "crawl_requests": 6,
+          "llm_calls": 0,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "tokens_per_page": 0.0
+        }
+      },
+      "amazon": {
+        "attempts": 3,
+        "crawl_ok": 3,
+        "records_produced": 3,
+        "schema_accepted": 3,
+        "schema_accept_rate": 1.0,
+        "error_counts": {},
+        "fill_rate": {
+          "per_key": {
+            "title": 1.0,
+            "id": 1.0,
+            "brand": 1.0,
+            "price": 1.0,
+            "currency": 1.0,
+            "availability": 1.0,
+            "rating": 1.0,
+            "reviews_count": 1.0
+          },
+          "mean": 1.0
+        },
+        "consistency": {
+          "urls": 1,
+          "urls_with_all_runs": 1,
+          "identical_across_runs": 1,
+          "rate": 1.0,
+          "identical_input_urls": 0,
+          "identical_input_consistent": 0
+        },
+        "consistency_clean_pages": {
+          "urls": 0,
+          "urls_with_all_runs": 0,
+          "identical_across_runs": 0,
+          "rate": null,
+          "identical_input_urls": 0,
+          "identical_input_consistent": 0
+        },
+        "drift_by_key": {
+          "title": 0,
+          "id": 0,
+          "brand": 0,
+          "price": 0,
+          "currency": 0,
+          "availability": 0,
+          "rating": 0,
+          "reviews_count": 0
+        },
+        "markdown_not_product_page": {
+          "attempts": 3,
+          "records_accepted": 3,
+          "llm_tokens": 0
+        },
+        "invented": {
+          "records_checked": 0,
+          "records_unchecked": 3,
+          "non_null_values": 0,
+          "invented_values": 0,
+          "rate": null,
+          "records_with_invented_value": 0,
+          "per_key": {
+            "title": 0,
+            "id": 0,
+            "brand": 0,
+            "price": 0,
+            "currency": 0,
+            "availability": 0,
+            "rating": 0,
+            "reviews_count": 0
+          }
+        },
+        "latency": {
+          "median_s": 0,
+          "p90_s": 0
+        },
+        "cost_shape": {
+          "crawl_requests": 3,
+          "llm_calls": 0,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "tokens_per_page": 0.0
+        }
+      },
+      "walmart": {
+        "attempts": 3,
+        "crawl_ok": 3,
+        "records_produced": 3,
+        "schema_accepted": 3,
+        "schema_accept_rate": 1.0,
+        "error_counts": {},
+        "fill_rate": {
+          "per_key": {
+            "title": 1.0,
+            "id": 1.0,
+            "brand": 1.0,
+            "price": 1.0,
+            "currency": 1.0,
+            "availability": 0.0,
+            "rating": 1.0,
+            "reviews_count": 1.0
+          },
+          "mean": 0.875
+        },
+        "consistency": {
+          "urls": 1,
+          "urls_with_all_runs": 1,
+          "identical_across_runs": 1,
+          "rate": 1.0,
+          "identical_input_urls": 0,
+          "identical_input_consistent": 0
+        },
+        "consistency_clean_pages": {
+          "urls": 0,
+          "urls_with_all_runs": 0,
+          "identical_across_runs": 0,
+          "rate": null,
+          "identical_input_urls": 0,
+          "identical_input_consistent": 0
+        },
+        "drift_by_key": {
+          "title": 0,
+          "id": 0,
+          "brand": 0,
+          "price": 0,
+          "currency": 0,
+          "availability": 0,
+          "rating": 0,
+          "reviews_count": 0
+        },
+        "markdown_not_product_page": {
+          "attempts": 3,
+          "records_accepted": 3,
+          "llm_tokens": 0
+        },
+        "invented": {
+          "records_checked": 0,
+          "records_unchecked": 3,
+          "non_null_values": 0,
+          "invented_values": 0,
+          "rate": null,
+          "records_with_invented_value": 0,
+          "per_key": {
+            "title": 0,
+            "id": 0,
+            "brand": 0,
+            "price": 0,
+            "currency": 0,
+            "availability": 0,
+            "rating": 0,
+            "reviews_count": 0
+          }
+        },
+        "latency": {
+          "median_s": 0,
+          "p90_s": 0.0
+        },
+        "cost_shape": {
+          "crawl_requests": 3,
+          "llm_calls": 0,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "tokens_per_page": 0.0
+        }
+      }
+    },
+    "autoparse": {
+      "all": {
+        "attempts": 6,
+        "crawl_ok": 6,
+        "records_produced": 3,
+        "schema_accepted": 3,
+        "schema_accept_rate": 0.5,
+        "error_counts": {
+          "no_scraper_match": 3
+        },
+        "fill_rate": {
+          "per_key": {
+            "title": 0.5,
+            "id": 0.5,
+            "brand": 0.5,
+            "price": 0.5,
+            "currency": 0.5,
+            "availability": 0.5,
+            "rating": 0.5,
+            "reviews_count": 0.5
+          },
+          "mean": 0.5
+        },
+        "consistency": {
+          "urls": 2,
+          "urls_with_all_runs": 1,
+          "identical_across_runs": 1,
+          "rate": 0.5,
+          "identical_input_urls": 0,
+          "identical_input_consistent": 0
+        },
+        "consistency_clean_pages": {
+          "urls": 0,
+          "urls_with_all_runs": 0,
+          "identical_across_runs": 0,
+          "rate": null,
+          "identical_input_urls": 0,
+          "identical_input_consistent": 0
+        },
+        "drift_by_key": {
+          "title": 0,
+          "id": 0,
+          "brand": 0,
+          "price": 0,
+          "currency": 0,
+          "availability": 0,
+          "rating": 0,
+          "reviews_count": 0
+        },
+        "markdown_not_product_page": {
+          "attempts": 6,
+          "records_accepted": 3,
+          "llm_tokens": 0
+        },
+        "invented": {
+          "records_checked": 0,
+          "records_unchecked": 3,
+          "non_null_values": 0,
+          "invented_values": 0,
+          "rate": null,
+          "records_with_invented_value": 0,
+          "per_key": {
+            "title": 0,
+            "id": 0,
+            "brand": 0,
+            "price": 0,
+            "currency": 0,
+            "availability": 0,
+            "rating": 0,
+            "reviews_count": 0
+          }
+        },
+        "latency": {
+          "median_s": 0.0,
+          "p90_s": 0.0
+        },
+        "cost_shape": {
+          "crawl_requests": 6,
+          "llm_calls": 0,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "tokens_per_page": 0.0
+        }
+      },
+      "amazon": {
+        "attempts": 3,
+        "crawl_ok": 3,
+        "records_produced": 3,
+        "schema_accepted": 3,
+        "schema_accept_rate": 1.0,
+        "error_counts": {},
+        "fill_rate": {
+          "per_key": {
+            "title": 1.0,
+            "id": 1.0,
+            "brand": 1.0,
+            "price": 1.0,
+            "currency": 1.0,
+            "availability": 1.0,
+            "rating": 1.0,
+            "reviews_count": 1.0
+          },
+          "mean": 1.0
+        },
+        "consistency": {
+          "urls": 1,
+          "urls_with_all_runs": 1,
+          "identical_across_runs": 1,
+          "rate": 1.0,
+          "identical_input_urls": 0,
+          "identical_input_consistent": 0
+        },
+        "consistency_clean_pages": {
+          "urls": 0,
+          "urls_with_all_runs": 0,
+          "identical_across_runs": 0,
+          "rate": null,
+          "identical_input_urls": 0,
+          "identical_input_consistent": 0
+        },
+        "drift_by_key": {
+          "title": 0,
+          "id": 0,
+          "brand": 0,
+          "price": 0,
+          "currency": 0,
+          "availability": 0,
+          "rating": 0,
+          "reviews_count": 0
+        },
+        "markdown_not_product_page": {
+          "attempts": 3,
+          "records_accepted": 3,
+          "llm_tokens": 0
+        },
+        "invented": {
+          "records_checked": 0,
+          "records_unchecked": 3,
+          "non_null_values": 0,
+          "invented_values": 0,
+          "rate": null,
+          "records_with_invented_value": 0,
+          "per_key": {
+            "title": 0,
+            "id": 0,
+            "brand": 0,
+            "price": 0,
+            "currency": 0,
+            "availability": 0,
+            "rating": 0,
+            "reviews_count": 0
+          }
+        },
+        "latency": {
+          "median_s": 0,
+          "p90_s": 0.0
+        },
+        "cost_shape": {
+          "crawl_requests": 3,
+          "llm_calls": 0,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "tokens_per_page": 0.0
+        }
+      },
+      "walmart": {
+        "attempts": 3,
+        "crawl_ok": 3,
+        "records_produced": 0,
+        "schema_accepted": 0,
+        "schema_accept_rate": 0.0,
+        "error_counts": {
+          "no_scraper_match": 3
+        },
+        "fill_rate": {
+          "per_key": {
+            "title": 0.0,
+            "id": 0.0,
+            "brand": 0.0,
+            "price": 0.0,
+            "currency": 0.0,
+            "availability": 0.0,
+            "rating": 0.0,
+            "reviews_count": 0.0
+          },
+          "mean": 0.0
+        },
+        "consistency": {
+          "urls": 1,
+          "urls_with_all_runs": 0,
+          "identical_across_runs": 0,
+          "rate": 0.0,
+          "identical_input_urls": 0,
+          "identical_input_consistent": 0
+        },
+        "consistency_clean_pages": {
+          "urls": 0,
+          "urls_with_all_runs": 0,
+          "identical_across_runs": 0,
+          "rate": null,
+          "identical_input_urls": 0,
+          "identical_input_consistent": 0
+        },
+        "drift_by_key": {
+          "title": 0,
+          "id": 0,
+          "brand": 0,
+          "price": 0,
+          "currency": 0,
+          "availability": 0,
+          "rating": 0,
+          "reviews_count": 0
+        },
+        "markdown_not_product_page": {
+          "attempts": 3,
+          "records_accepted": 0,
+          "llm_tokens": 0
+        },
+        "invented": {
+          "records_checked": 0,
+          "records_unchecked": 0,
+          "non_null_values": 0,
+          "invented_values": 0,
+          "rate": null,
+          "records_with_invented_value": 0,
+          "per_key": {
+            "title": 0,
+            "id": 0,
+            "brand": 0,
+            "price": 0,
+            "currency": 0,
+            "availability": 0,
+            "rating": 0,
+            "reviews_count": 0
+          }
+        },
+        "latency": {
+          "median_s": 0,
+          "p90_s": 0
+        },
+        "cost_shape": {
+          "crawl_requests": 3,
+          "llm_calls": 0,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "tokens_per_page": 0.0
+        }
+      }
+    },
+    "markdown_llm": {
+      "all": {
+        "attempts": 6,
+        "crawl_ok": 6,
+        "records_produced": 6,
+        "schema_accepted": 6,
+        "schema_accept_rate": 1.0,
+        "error_counts": {},
+        "fill_rate": {
+          "per_key": {
+            "title": 1.0,
+            "id": 1.0,
+            "brand": 1.0,
+            "price": 1.0,
+            "currency": 1.0,
+            "availability": 1.0,
+            "rating": 1.0,
+            "reviews_count": 1.0
+          },
+          "mean": 1.0
+        },
+        "consistency": {
+          "urls": 2,
+          "urls_with_all_runs": 2,
+          "identical_across_runs": 2,
+          "rate": 1.0,
+          "identical_input_urls": 2,
+          "identical_input_consistent": 2
+        },
+        "consistency_clean_pages": {
+          "urls": 0,
+          "urls_with_all_runs": 0,
+          "identical_across_runs": 0,
+          "rate": null,
+          "identical_input_urls": 0,
+          "identical_input_consistent": 0
+        },
+        "drift_by_key": {
+          "title": 0,
+          "id": 0,
+          "brand": 0,
+          "price": 0,
+          "currency": 0,
+          "availability": 0,
+          "rating": 0,
+          "reviews_count": 0
+        },
+        "markdown_not_product_page": {
+          "attempts": 6,
+          "records_accepted": 6,
+          "llm_tokens": 966
+        },
+        "invented": {
+          "records_checked": 6,
+          "records_unchecked": 0,
+          "non_null_values": 48,
+          "invented_values": 3,
+          "rate": 0.0625,
+          "records_with_invented_value": 3,
+          "per_key": {
+            "title": 0,
+            "id": 0,
+            "brand": 0,
+            "price": 3,
+            "currency": 0,
+            "availability": 0,
+            "rating": 0,
+            "reviews_count": 0
+          }
+        },
+        "latency": {
+          "median_s": 0.0,
+          "p90_s": 0.0
+        },
+        "cost_shape": {
+          "crawl_requests": 6,
+          "llm_calls": 6,
+          "prompt_tokens": 606,
+          "completion_tokens": 360,
+          "tokens_per_page": 161.0
+        }
+      },
+      "amazon": {
+        "attempts": 3,
+        "crawl_ok": 3,
+        "records_produced": 3,
+        "schema_accepted": 3,
+        "schema_accept_rate": 1.0,
+        "error_counts": {},
+        "fill_rate": {
+          "per_key": {
+            "title": 1.0,
+            "id": 1.0,
+            "brand": 1.0,
+            "price": 1.0,
+            "currency": 1.0,
+            "availability": 1.0,
+            "rating": 1.0,
+            "reviews_count": 1.0
+          },
+          "mean": 1.0
+        },
+        "consistency": {
+          "urls": 1,
+          "urls_with_all_runs": 1,
+          "identical_across_runs": 1,
+          "rate": 1.0,
+          "identical_input_urls": 1,
+          "identical_input_consistent": 1
+        },
+        "consistency_clean_pages": {
+          "urls": 0,
+          "urls_with_all_runs": 0,
+          "identical_across_runs": 0,
+          "rate": null,
+          "identical_input_urls": 0,
+          "identical_input_consistent": 0
+        },
+        "drift_by_key": {
+          "title": 0,
+          "id": 0,
+          "brand": 0,
+          "price": 0,
+          "currency": 0,
+          "availability": 0,
+          "rating": 0,
+          "reviews_count": 0
+        },
+        "markdown_not_product_page": {
+          "attempts": 3,
+          "records_accepted": 3,
+          "llm_tokens": 546
+        },
+        "invented": {
+          "records_checked": 3,
+          "records_unchecked": 0,
+          "non_null_values": 24,
+          "invented_values": 3,
+          "rate": 0.125,
+          "records_with_invented_value": 3,
+          "per_key": {
+            "title": 0,
+            "id": 0,
+            "brand": 0,
+            "price": 3,
+            "currency": 0,
+            "availability": 0,
+            "rating": 0,
+            "reviews_count": 0
+          }
+        },
+        "latency": {
+          "median_s": 0,
+          "p90_s": 0
+        },
+        "cost_shape": {
+          "crawl_requests": 3,
+          "llm_calls": 3,
+          "prompt_tokens": 366,
+          "completion_tokens": 180,
+          "tokens_per_page": 182.0
+        }
+      },
+      "walmart": {
+        "attempts": 3,
+        "crawl_ok": 3,
+        "records_produced": 3,
+        "schema_accepted": 3,
+        "schema_accept_rate": 1.0,
+        "error_counts": {},
+        "fill_rate": {
+          "per_key": {
+            "title": 1.0,
+            "id": 1.0,
+            "brand": 1.0,
+            "price": 1.0,
+            "currency": 1.0,
+            "availability": 1.0,
+            "rating": 1.0,
+            "reviews_count": 1.0
+          },
+          "mean": 1.0
+        },
+        "consistency": {
+          "urls": 1,
+          "urls_with_all_runs": 1,
+          "identical_across_runs": 1,
+          "rate": 1.0,
+          "identical_input_urls": 1,
+          "identical_input_consistent": 1
+        },
+        "consistency_clean_pages": {
+          "urls": 0,
+          "urls_with_all_runs": 0,
+          "identical_across_runs": 0,
+          "rate": null,
+          "identical_input_urls": 0,
+          "identical_input_consistent": 0
+        },
+        "drift_by_key": {
+          "title": 0,
+          "id": 0,
+          "brand": 0,
+          "price": 0,
+          "currency": 0,
+          "availability": 0,
+          "rating": 0,
+          "reviews_count": 0
+        },
+        "markdown_not_product_page": {
+          "attempts": 3,
+          "records_accepted": 3,
+          "llm_tokens": 420
+        },
+        "invented": {
+          "records_checked": 3,
+          "records_unchecked": 0,
+          "non_null_values": 24,
+          "invented_values": 0,
+          "rate": 0.0,
+          "records_with_invented_value": 0,
+          "per_key": {
+            "title": 0,
+            "id": 0,
+            "brand": 0,
+            "price": 0,
+            "currency": 0,
+            "availability": 0,
+            "rating": 0,
+            "reviews_count": 0
+          }
+        },
+        "latency": {
+          "median_s": 0.0,
+          "p90_s": 0.0
+        },
+        "cost_shape": {
+          "crawl_requests": 3,
+          "llm_calls": 3,
+          "prompt_tokens": 240,
+          "completion_tokens": 180,
+          "tokens_per_page": 140.0
+        }
+      }
+    }
+  },
+  "per_record": [
+    {
+      "url": "https://www.amazon.com/dp/B0TESTCASE",
+      "path": "scraper",
+      "run": 1,
+      "accepted": true,
+      "errors": [],
+      "invented": null,
+      "md_product_page": false,
+      "cb_status": "200",
+      "token": "normal",
+      "latency_s": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "input_hash": null,
+      "filled": [
+        "title",
+        "id",
+        "brand",
+        "price",
+        "currency",
+        "availability",
+        "rating",
+        "reviews_count"
+      ]
+    },
+    {
+      "url": "https://www.amazon.com/dp/B0TESTCASE",
+      "path": "autoparse",
+      "run": 1,
+      "accepted": true,
+      "errors": [],
+      "invented": null,
+      "md_product_page": false,
+      "cb_status": "200",
+      "token": "normal",
+      "latency_s": 0.001,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "input_hash": null,
+      "filled": [
+        "title",
+        "id",
+        "brand",
+        "price",
+        "currency",
+        "availability",
+        "rating",
+        "reviews_count"
+      ]
+    },
+    {
+      "url": "https://www.amazon.com/dp/B0TESTCASE",
+      "path": "markdown_llm",
+      "run": 1,
+      "accepted": true,
+      "errors": [],
+      "invented": [
+        "price"
+      ],
+      "md_product_page": false,
+      "cb_status": "200",
+      "token": "normal",
+      "latency_s": 0,
+      "prompt_tokens": 122,
+      "completion_tokens": 60,
+      "input_hash": "55283267bed2e21088e3a5fd1adb08926668a802",
+      "filled": [
+        "title",
+        "id",
+        "brand",
+        "price",
+        "currency",
+        "availability",
+        "rating",
+        "reviews_count"
+      ]
+    },
+    {
+      "url": "https://www.walmart.com/ip/3551794083",
+      "path": "scraper",
+      "run": 1,
+      "accepted": true,
+      "errors": [],
+      "invented": null,
+      "md_product_page": false,
+      "cb_status": "200",
+      "token": "normal",
+      "latency_s": 0.001,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "input_hash": null,
+      "filled": [
+        "title",
+        "id",
+        "brand",
+        "price",
+        "currency",
+        "rating",
+        "reviews_count"
+      ]
+    },
+    {
+      "url": "https://www.walmart.com/ip/3551794083",
+      "path": "autoparse",
+      "run": 1,
+      "accepted": false,
+      "errors": [
+        "no_scraper_match"
+      ],
+      "invented": null,
+      "md_product_page": false,
+      "cb_status": "200",
+      "token": "normal",
+      "latency_s": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "input_hash": null,
+      "filled": []
+    },
+    {
+      "url": "https://www.walmart.com/ip/3551794083",
+      "path": "markdown_llm",
+      "run": 1,
+      "accepted": true,
+      "errors": [],
+      "invented": [],
+      "md_product_page": false,
+      "cb_status": "200",
+      "token": "normal",
+      "latency_s": 0.001,
+      "prompt_tokens": 80,
+      "completion_tokens": 60,
+      "input_hash": "3f12a72ffe99d23b406d0ca0ed4a85ee01566f23",
+      "filled": [
+        "title",
+        "id",
+        "brand",
+        "price",
+        "currency",
+        "availability",
+        "rating",
+        "reviews_count"
+      ]
+    },
+    {
+      "url": "https://www.amazon.com/dp/B0TESTCASE",
+      "path": "scraper",
+      "run": 2,
+      "accepted": true,
+      "errors": [],
+      "invented": null,
+      "md_product_page": false,
+      "cb_status": "200",
+      "token": "normal",
+      "latency_s": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "input_hash": null,
+      "filled": [
+        "title",
+        "id",
+        "brand",
+        "price",
+        "currency",
+        "availability",
+        "rating",
+        "reviews_count"
+      ]
+    },
+    {
+      "url": "https://www.amazon.com/dp/B0TESTCASE",
+      "path": "autoparse",
+      "run": 2,
+      "accepted": true,
+      "errors": [],
+      "invented": null,
+      "md_product_page": false,
+      "cb_status": "200",
+      "token": "normal",
+      "latency_s": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "input_hash": null,
+      "filled": [
+        "title",
+        "id",
+        "brand",
+        "price",
+        "currency",
+        "availability",
+        "rating",
+        "reviews_count"
+      ]
+    },
+    {
+      "url": "https://www.amazon.com/dp/B0TESTCASE",
+      "path": "markdown_llm",
+      "run": 2,
+      "accepted": true,
+      "errors": [],
+      "invented": [
+        "price"
+      ],
+      "md_product_page": false,
+      "cb_status": "200",
+      "token": "normal",
+      "latency_s": 0,
+      "prompt_tokens": 122,
+      "completion_tokens": 60,
+      "input_hash": "55283267bed2e21088e3a5fd1adb08926668a802",
+      "filled": [
+        "title",
+        "id",
+        "brand",
+        "price",
+        "currency",
+        "availability",
+        "rating",
+        "reviews_count"
+      ]
+    },
+    {
+      "url": "https://www.walmart.com/ip/3551794083",
+      "path": "scraper",
+      "run": 2,
+      "accepted": true,
+      "errors": [],
+      "invented": null,
+      "md_product_page": false,
+      "cb_status": "200",
+      "token": "normal",
+      "latency_s": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "input_hash": null,
+      "filled": [
+        "title",
+        "id",
+        "brand",
+        "price",
+        "currency",
+        "rating",
+        "reviews_count"
+      ]
+    },
+    {
+      "url": "https://www.walmart.com/ip/3551794083",
+      "path": "autoparse",
+      "run": 2,
+      "accepted": false,
+      "errors": [
+        "no_scraper_match"
+      ],
+      "invented": null,
+      "md_product_page": false,
+      "cb_status": "200",
+      "token": "normal",
+      "latency_s": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "input_hash": null,
+      "filled": []
+    },
+    {
+      "url": "https://www.walmart.com/ip/3551794083",
+      "path": "markdown_llm",
+      "run": 2,
+      "accepted": true,
+      "errors": [],
+      "invented": [],
+      "md_product_page": false,
+      "cb_status": "200",
+      "token": "normal",
+      "latency_s": 0.001,
+      "prompt_tokens": 80,
+      "completion_tokens": 60,
+      "input_hash": "3f12a72ffe99d23b406d0ca0ed4a85ee01566f23",
+      "filled": [
+        "title",
+        "id",
+        "brand",
+        "price",
+        "currency",
+        "availability",
+        "rating",
+        "reviews_count"
+      ]
+    },
+    {
+      "url": "https://www.amazon.com/dp/B0TESTCASE",
+      "path": "scraper",
+      "run": 3,
+      "accepted": true,
+      "errors": [],
+      "invented": null,
+      "md_product_page": false,
+      "cb_status": "200",
+      "token": "normal",
+      "latency_s": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "input_hash": null,
+      "filled": [
+        "title",
+        "id",
+        "brand",
+        "price",
+        "currency",
+        "availability",
+        "rating",
+        "reviews_count"
+      ]
+    },
+    {
+      "url": "https://www.amazon.com/dp/B0TESTCASE",
+      "path": "autoparse",
+      "run": 3,
+      "accepted": true,
+      "errors": [],
+      "invented": null,
+      "md_product_page": false,
+      "cb_status": "200",
+      "token": "normal",
+      "latency_s": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "input_hash": null,
+      "filled": [
+        "title",
+        "id",
+        "brand",
+        "price",
+        "currency",
+        "availability",
+        "rating",
+        "reviews_count"
+      ]
+    },
+    {
+      "url": "https://www.amazon.com/dp/B0TESTCASE",
+      "path": "markdown_llm",
+      "run": 3,
+      "accepted": true,
+      "errors": [],
+      "invented": [
+        "price"
+      ],
+      "md_product_page": false,
+      "cb_status": "200",
+      "token": "normal",
+      "latency_s": 0,
+      "prompt_tokens": 122,
+      "completion_tokens": 60,
+      "input_hash": "55283267bed2e21088e3a5fd1adb08926668a802",
+      "filled": [
+        "title",
+        "id",
+        "brand",
+        "price",
+        "currency",
+        "availability",
+        "rating",
+        "reviews_count"
+      ]
+    },
+    {
+      "url": "https://www.walmart.com/ip/3551794083",
+      "path": "scraper",
+      "run": 3,
+      "accepted": true,
+      "errors": [],
+      "invented": null,
+      "md_product_page": false,
+      "cb_status": "200",
+      "token": "normal",
+      "latency_s": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "input_hash": null,
+      "filled": [
+        "title",
+        "id",
+        "brand",
+        "price",
+        "currency",
+        "rating",
+        "reviews_count"
+      ]
+    },
+    {
+      "url": "https://www.walmart.com/ip/3551794083",
+      "path": "autoparse",
+      "run": 3,
+      "accepted": false,
+      "errors": [
+        "no_scraper_match"
+      ],
+      "invented": null,
+      "md_product_page": false,
+      "cb_status": "200",
+      "token": "normal",
+      "latency_s": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "input_hash": null,
+      "filled": []
+    },
+    {
+      "url": "https://www.walmart.com/ip/3551794083",
+      "path": "markdown_llm",
+      "run": 3,
+      "accepted": true,
+      "errors": [],
+      "invented": [],
+      "md_product_page": false,
+      "cb_status": "200",
+      "token": "normal",
+      "latency_s": 0.001,
+      "prompt_tokens": 80,
+      "completion_tokens": 60,
+      "input_hash": "3f12a72ffe99d23b406d0ca0ed4a85ee01566f23",
+      "filled": [
+        "title",
+        "id",
+        "brand",
+        "price",
+        "currency",
+        "availability",
+        "rating",
+        "reviews_count"
+      ]
+    }
+  ]
+}

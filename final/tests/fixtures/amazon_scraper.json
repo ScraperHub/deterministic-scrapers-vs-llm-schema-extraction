@@ -1,0 +1,22 @@
+{
+  "original_status": 200,
+  "cb_status": 200,
+  "url": "https://www.amazon.com/dp/B0TESTCASE",
+  "domain_complexity": "moderate",
+  "body": {
+    "name": "Example Silicone Case with MagSafe - Winter Blue",
+    "price": "$49.00",
+    "originalPrice": "",
+    "rawPrice": "49.00",
+    "currency": "USD",
+    "inStock": true,
+    "brand": "Apple",
+    "customerReview": "4.0 out of 5 stars",
+    "customerReviewCount": 3773,
+    "features": ["Compatible with iPhone 15 Pro"],
+    "productInformation": [
+      {"name": "Manufacturer", "value": "\u200eApple"},
+      {"name": "ASIN", "value": "\u200eB0TESTCASE"}
+    ]
+  }
+}

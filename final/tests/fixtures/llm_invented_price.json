@@ -1,0 +1,32 @@
+{
+  "amazon": {
+    "title": "Example Silicone Case with MagSafe - Winter Blue",
+    "id": "B0TESTCASE",
+    "brand": "Apple",
+    "price": 39.99,
+    "currency": "USD",
+    "availability": "in_stock",
+    "rating": 4.0,
+    "reviews_count": 3773
+  },
+  "walmart": {
+    "title": "Meta Quest 3 512GB VR Headset",
+    "id": "3551794083",
+    "brand": "Meta Quest",
+    "price": 599.0,
+    "currency": "USD",
+    "availability": "in_stock",
+    "rating": 4.4,
+    "reviews_count": 3240
+  },
+  "longtail": {
+    "title": "Steel Kettle 1.7 L",
+    "id": "HL-KET-17",
+    "brand": "Hearthline",
+    "price": 39.9,
+    "currency": "EUR",
+    "availability": "in_stock",
+    "rating": null,
+    "reviews_count": null
+  }
+}

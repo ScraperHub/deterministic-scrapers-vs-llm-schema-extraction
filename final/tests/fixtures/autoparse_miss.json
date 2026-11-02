@@ -1,0 +1,5 @@
+{
+  "status_code": 200,
+  "headers": {"original_status": "200", "cb_status": "200", "url": "https://shop.example.com/p/kettle-17"},
+  "body": "<!doctype html><html><head><title>Steel Kettle 1.7 L</title></head><body><h1>Steel Kettle 1.7 L</h1></body></html>"
+}
